@@ -13,7 +13,7 @@ SIZE_LIMIT = 3 * 1024 * 1024  # 3MB
 SERVER_URL = "https://"
 
 def bytes_to_mb(byte_size):
-    """바이트를 MB로 변환하는 함수"""
+   # 바이트를 MB로 변환하는 함수
     return byte_size / (1024 * 1024)
 
 def find_large_images(directory):
